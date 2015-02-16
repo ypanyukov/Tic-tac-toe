@@ -1,0 +1,42 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css"/>
+</head>
+<body>
+<div id="loader">Loading data and players</div>
+<div id="gameOver">Thank you! You <span class="win">WIN</span><span class="lose">LOSE</span></div>
+<div id="gameLayer">
+    <div class="left info">
+        <h2>You are next is <span id="next"></span></h2>
+
+        <h2>You are playing on <span id="choice"></span></h2>
+    </div>
+    <div class="right">
+        <table id="table">
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+        </table>
+    </div>
+</div>
+
+
+<script src="/socket.io/socket.io.js"></script>
+<script src="/bower_components/jquery/dist/jquery.min.js"></script>
+<script src="/game-web.js"></script>
+</body>
+</html>

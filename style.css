@@ -1,0 +1,68 @@
+#loader {
+    background: url('./image/loader.gif') no-repeat center left transparent;
+    width: 500px;
+    height: 55px;
+    margin: 0 auto;
+    font-size: 45px;
+    padding: 0 80px;
+}
+
+#gameOver {
+    background: rgba(0, 0, 0, 0.9);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    color:white;
+    font-size: 100px;
+    text-align: center;
+    display: none;
+}
+
+#gameOver .win,
+#gameOver .lose {
+    display: none;
+}
+
+#gameLayer {
+    display: none;
+    margin: 0 auto;
+    width: 800px;
+}
+
+.info {
+    width: 150px;
+}
+
+#table {
+    width: 600px;
+    height: 600px;
+    border: none;
+}
+
+#table td {
+    width: 200px;
+    height: 200px;
+    outline: 1px solid black;
+}
+
+#table td.toe {
+    background: url('./image/circle.png') no-repeat center center transparent;
+}
+
+#table td.tic {
+    background: url('./image/cross.png') no-repeat center center transparent;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+#choice, #next {
+    color: red;
+}

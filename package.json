@@ -1,0 +1,20 @@
+{
+  "name": "Tic-tac-toe",
+  "version": "0.1.0",
+  "description": "Small game for two players on net. Socket.io, nodejs",
+  "main": "run.js",
+  "dependencies": {
+    "socket.io": "^0.9.16"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "nodejs",
+    "socket.io",
+    "tic-tac-toe"
+  ],
+  "author": "Panyukov Yury",
+  "license": "ISC"
+}
